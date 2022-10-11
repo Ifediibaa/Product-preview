@@ -1,0 +1,49 @@
+@media screen and (max-width:375px) {
+    .main{
+        background-color: hsl(0, 0%, 100%);
+        width: 450px;
+        height: 580px;
+        display: block;
+        border-radius: 10px;
+        margin-top: 50px;
+        overflow: hidden;
+        padding-left:5px;
+        background-position: center;
+        
+    }
+    
+    .image{
+        background-image: url(img/image-product-mobile.jpg);        
+        height: 260px;
+        margin-top: 5px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin-right: 30px; 
+        width: content;
+                    
+        }
+    .text{  
+        margin-top: 5px; 
+        padding-top: 15px;
+        padding-left: 23px;
+        display: inline-block;        
+        
+    }
+    
+    button{
+        color: white;
+        width:300px;   
+        background-color:hsl(158, 36%, 37%);    
+        border-radius: 10px;
+        margin-top: 15px;
+        padding: 12px;
+    }
+    p{
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+
+    
+}
